@@ -75,6 +75,30 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  font_awesome_flutter:
+    dependency: "direct main"
+    description:
+      name: font_awesome_flutter
+      sha256: "275ff26905134bcb59417cf60ad979136f1f8257f2f449914b2c3e05bbb4cd6f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "10.7.0"
+  functional_data:
+    dependency: transitive
+    description:
+      name: functional_data
+      sha256: "76d17dc707c40e552014f5a49c0afcc3f1e3f05e800cd6b7872940bfe41a5039"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.0"
+  json2yaml:
+    dependency: transitive
+    description:
+      name: json2yaml
+      sha256: da94630fbc56079426fdd167ae58373286f603371075b69bf46d848d63ba3e51
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.1"
   leak_tracker:
     dependency: transitive
     description:
@@ -139,6 +163,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.0"
+  plain_optional:
+    dependency: transitive
+    description:
+      name: plain_optional
+      sha256: e5856f4c3e5a5e5f47e9c3d13ccbb674d822f95c408869a19ee9a4391cc2e820
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
+  pubspec_yaml:
+    dependency: "direct main"
+    description:
+      name: pubspec_yaml
+      sha256: "312424c243f98a74b912c028cbedb4776a47f80bf7d8b8791291c4486dc3f02a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -176,6 +216,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  sum_types:
+    dependency: transitive
+    description:
+      name: sum_types
+      sha256: c0a0fad9a518d011987e1d9f27fc336194294e55dafdc3699363e52aa5776e09
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.5"
   term_glyph:
     dependency: transitive
     description:
@@ -208,6 +256,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "14.2.4"
+  yaml:
+    dependency: transitive
+    description:
+      name: yaml
+      sha256: "75769501ea3489fca56601ff33454fe45507ea3bfb014161abc3b43ae25989d5"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.2"
 sdks:
   dart: ">=3.5.0 <4.0.0"
   flutter: ">=3.18.0-18.0.pre.54"
