@@ -9,10 +9,12 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: NotesViewBody()
-      
-    );
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          backgroundColor: const Color.fromARGB(255, 83, 205, 238),
+          child: Icon(Icons.add),
+          shape: CircleBorder(),
+        ),
+        body: NotesViewBody());
   }
 }
-
-

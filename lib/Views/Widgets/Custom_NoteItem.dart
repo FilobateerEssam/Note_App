@@ -7,7 +7,7 @@ class CustomNoteitem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(10),
+      padding: const EdgeInsets.all(3),
       child: Container(
         padding: const EdgeInsets.only(top: 13, bottom: 13, left: 5),
         decoration: BoxDecoration(
@@ -15,7 +15,6 @@ class CustomNoteitem extends StatelessWidget {
             borderRadius: BorderRadius.all(Radius.circular(10))),
         child: Column(
           children: [
-            
             ListTile(
               title: Text(
                 "Note 1",
