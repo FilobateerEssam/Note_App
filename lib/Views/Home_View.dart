@@ -12,9 +12,15 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            showModalBottomSheet(context: context, builder: (context){
-              return AddNoteBottomSheet();
-            });
+            showModalBottomSheet(
+                backgroundColor:Color.fromARGB(255, 57, 57, 57),
+                shape:RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(16),
+                ) ,
+                context: context,
+                builder: (context) {
+                  return AddNoteBottomSheet();
+                });
           },
           backgroundColor: const Color.fromARGB(255, 83, 205, 238),
           child: Icon(Icons.add),
@@ -22,5 +28,4 @@ class HomeScreen extends StatelessWidget {
         ),
         body: NotesViewBody());
   }
-  
 }
