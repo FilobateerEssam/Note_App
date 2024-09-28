@@ -5,11 +5,12 @@ class Noteslistview extends StatelessWidget {
   const Noteslistview({super.key});
 
   final data = const [];
-  
+
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-        itemCount: 2,
+        padding: EdgeInsets.zero,
+        itemCount: 5,
         itemBuilder: (context, i) {
           return CustomNoteitem();
         });
