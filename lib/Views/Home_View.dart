@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
                   return AddNoteBottomSheet();
                 });
           },
-          backgroundColor: const Color.fromARGB(255, 83, 205, 238),
+          backgroundColor: const Color(0xff62FCD7),
           child: Icon(Icons.add),
           shape: CircleBorder(),
         ),
