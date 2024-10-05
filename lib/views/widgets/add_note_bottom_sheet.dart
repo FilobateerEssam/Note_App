@@ -8,7 +8,7 @@ import 'package:note_app/views/widgets/custom_text_field.dart';
 import 'custom_button.dart';
 
 class AddNoteBottomSheet extends StatefulWidget {
-  AddNoteBottomSheet({Key? key}) : super(key: key);
+  const AddNoteBottomSheet({super.key});
 
   @override
   State<AddNoteBottomSheet> createState() => _AddNoteBottomSheetState();
@@ -37,12 +37,16 @@ class _AddNoteBottomSheetState extends State<AddNoteBottomSheet> {
           // make u can't deal with anything on the Screen while Loading
           return AbsorbPointer(
               absorbing: state is AddNoteLoading ? true : false,
-              child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 16),
-            child: SingleChildScrollView(
-              child: AddNoteForm(),
-            ),
-          ));
+              child:  Padding(
+                padding: EdgeInsets.only(
+                  left: 16,
+                  right: 16,
+                bottom: MediaQuery.of(context).viewInsets.bottom,
+                ),
+                child:const SingleChildScrollView(
+                  child: AddNoteForm(),
+                ),
+              ));
         },
       ),
     );

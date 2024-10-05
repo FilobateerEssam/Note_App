@@ -18,7 +18,7 @@ class CustomTextField extends StatelessWidget {
         // value!.isEmpty ! mean that I'm Sure that there are a Value
         // value?.isEmpty ?? true == if value == null
         if(value?.isEmpty ?? true   ){
-          return 'Please enter ${hint}';
+          return 'Please enter $hint';
         }
         else {
           return null;
